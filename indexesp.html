@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Keywords" content="SOLDAREX" >
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="css/lightbox.min.css">
+<script  type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+<link type="text/javascript" src="app.js"></script>
+<link rel="stylesheet" href="ikonki/css/fontello.css">
+<link type="text/javascript" src="img.js"></script>
+<script src="./js/Tekst.js"></script>
+<title>SOLDAREX</title>
+
+
+
+
+
+
+</head>
+<body>
+   
+
+<nav>
+        <a href="#" <div class="logo">
+        <h4>SolDarex</h4>
+    </div></a>
+    <ul class="nav-links">
+        <li >
+            <a href="#onas">O nas  </a>
+        </li>
+        <li>
+            <a href="#zlecenia">Zlecenia</a>
+        </li>
+        <li>
+            <a href="#regon">Kontakt</a>
+        </li>
+        <li>
+            <a href="index.html"><img src="./img/pl.png" alt="Tu podaj tekst alternatywny" height="30px" ; width="40px" ></a>
+        </li>
+        <li>
+            <a href="indexesp.html"><img src="./img/esp.png" alt="Tu podaj tekst alternatywny" height="30px" ; width="40px" ></a>
+        </li>
+    </ul>
+    <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+     </div>
+    
+</nav>
+
+<div id="start">
+    
+    <script >
+     var i = 0;
+            var images = [];
+            var time = 5000;
+            
+            
+            //Img list
+            images[0] = "./img/11.jpg";
+            images[1] = "./img/12.jpg";
+            images[2] = "./img/13.jpg";
+            images[3] = "./img/15.jpg";
+            
+            
+            //Change img
+            function changeImg(){
+                document.getElementById("start").style.transition="images 2s";
+                document.slide.src = images[i];
+               
+               
+            if(i < images.length -1){
+            i++ 
+  
+            } else{
+                i = 0;
+            }
+            setTimeout("changeImg()", time);
+            }
+        
+            window.onload = changeImg;
+                   </script> 
+            <img name="slide" class="blur" width="100%" height="98%">
+            <div id="tekst">
+                <h1> SOLDAREX <h1/>
+     
+       
+        
+       <h5>Grebow ul.Dolańskich 18</h5>
+ </div>
+
+</div>
+ <div id="onas">
+    Jesteśmy firma, która zajmuje się świadczeniem usług spawalniczo-monterskich oraz wykonywaniem projektow. <br>
+    Świadczymy uslugi na terenie Polski, jak również za granicą. Współpracujemy z klientem indywidalnym oraz z firmami. <br>
+    Posiadamy zaplecze maszyn spawalniczych i monterskich, co wplywa na szeroki wachlarz świadczonych usług. <br>
+    Do prac spawalniczych wykorzystujemy nowoczesne maszyny Lincoln Electric ktore pozwalaja na spawanie różnorodnych materiałów. <br>
+    <b>Nasza firma to wykwalifikowani pracownicy</b>,posiadajcy uprawnienia spawalnicze i monterskie niezbędne do wykonywania powierzonych nam zleceń. <br>
+    Ponadto na biezaco podnosimy swoje kwalifikacje i zdobywamy nowe uprawnienia
+
+
+ </div>
+ <div id="foto">
+     <img src="./img/sss.jpg" alt="" height="100%" width="100%">
+ </div>
+
+
+        <div id="zlecenia">
+            <div id="tekst2">
+                  <h2>Zajmujemy sie przede wszystkim spawaniem:</h2><br/><br/>
+                    
+                  <span onclick="revealMessage()"> &#8226; Bram</span>
+<div id="info" style="display:none"> A tutaj masz ladne dodatkowe info.  </div>
+            <div><span onclick="revealMessage1()">&#8226; Ogrodzeń</span></div>
+<div id="info1" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage2()">&#8226; Hale stalowych</span></div>
+<div id="info2" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage3()">&#8226; Tarcz TBM</span></div>
+<div id="info3" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage4()">&#8226; Barierek</span></div>
+<div id="info4" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage5()">&#8226; Zbiorników Paliwowych</span></div>
+<div id="info5" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage6()">&#8226; Konstrukcji stalowych</span></div>
+<div id="info6" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage7()">&#8226; Mostów</span></div>
+<div id="info7" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+<div><span onclick="revealMessage8()">&#8226; Projektow indywidalnych dla klienta </span></div>
+<div id="info8" style="display:none">A tutaj masz ladne dodatkowe info. </div>
+
+            </div>
+            
+        </div>
+        <div id="nip">
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1506.9961658648203!2d21.883241657388606!3d50.562897957355524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d339ea8caa745%3A0x7738104f117c11cd!2sSoldarex!5e0!3m2!1spl!2spl!4v1573656067474!5m2!1spl!2spl" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+           <div id="regon">
+            NIP: 867 197 398 1 <br>
+            REGON: 363 898 540
+
+           </div>
+
+        </div>
+     
+        <div id="kontakt">
+<div class="kontaktt"><i class="icon-phone"></i>+48 798 347 673</div>
+<div class="kontaktt"><i class="icon-mail-alt"></i>soldarex@onet.pl</div>
+
+
+        </div>
+
+<script src="app.js"></script>
+
+<script src="http://skryptcookies.pl/cookie.js"></script>
+
+
+
+
+
+
+</body>
+</html>
